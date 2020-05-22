@@ -1,7 +1,6 @@
-require "bundler/gem_tasks"
-require "rspec/core/rake_task"
+#!/usr/bin/env rake
 
-RSpec::Core::RakeTask.new(:spec)
+require 'huginn_agent'
+require 'bundler/gem_tasks'
 
-task :default => :spec
-
+HuginnAgent.load_tasks(branch: 'master', remote: 'https://github.com/huginn/huginn.git')
