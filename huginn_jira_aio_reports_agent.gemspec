@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "huginn_jira_aio_report_agent"
+  spec.name          = "huginn_jira_aio_reports_agent"
   spec.version       = '0.1'
   spec.authors       = ["Melissa Comfort"]
   spec.email         = ["mcomfort@convergeone.com"]

@@ -1,7 +1,7 @@
 require 'addressable/uri'
 
 module Agents
-  class JiraAutoResponderAgent < Agent
+  class JiraAIOReportsAgent < Agent
     include WebRequestConcern
     include FormConfigurable
 
